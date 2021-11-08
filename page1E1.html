@@ -1,0 +1,244 @@
+<html>
+<head>
+	<title>Tahaluf Training Center</title>
+
+	<style>
+		body{
+			background-image: url("cover.jpg");
+			font-family: "comic sans ms", sans serif;
+			margin: 0;
+			background-size: cover;
+			background-blend-mode:saturation;
+			
+		}
+	header{ 
+		border:solid;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+letter-spacing: 1px;
+display:flex;
+
+animation-name:testt;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+
+ }
+		
+		h2{
+			color: black;
+			text-align: center;
+			border:solid;
+			border-color: black;
+			border-top-left-radius:50px;
+         border-bottom-right-radius:50px;
+         animation-name:test;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+border-collapse: separate;
+width: 50%;
+text-align: center;
+margin-left: 300px;
+
+		}
+		.img{ width: 120px;
+		height:100px ;
+		margin-left: 30px;
+	}
+		td{
+			padding: 7px;
+		}
+		input{
+			height: 30px;
+			border-radius: 10px;
+			border: none;
+			
+		}
+		
+		input:focus{
+			outline: none;
+			border: 1px solid forestgreen;
+		}
+		input:hover{
+			box-shadow: 5px 5px 5px black;
+		}
+		
+		.button{
+			background-color: forestgreen;
+			color:#fff;
+			border: none;
+			font-size;40px;
+			width: 350px;
+			height: 50px
+
+		}
+		
+		.button:hover {
+			cursor: pointer;
+			box-shadow: 5px 5px 5px red;
+		}
+		@keyframes testt
+{
+0%{box-shadow: 10px 5px 10px red; color:red;}
+25%{box-shadow: 10px 5px 10px black; color:black; }
+50%{box-shadow: 10px 5px 10px green; color:green;}
+75%{box-shadow: 10px 5px 10px red; color:red;}
+100%{box-shadow: 10px 5px 10px green; color:green; }
+}
+@keyframes test
+{ 0%{border-color: black;}
+50%{border-color: red;}
+100%{border-color: green;}}
+
+}
+	</style>
+</head>
+<body>
+	<header>  <img  class="img" src="logo.png"> 
+	 <h1 style="margin-left: 150px;">Application Program for an Tahaluf Training</h1></header>
+
+	
+	<form>
+	     <h2>Personal Detials</h2>
+
+			<table width="100%">
+				<tr>
+															<td></td>
+
+					<td>First Name</td>
+					<td>
+						<input type="text" placeholder="First Name" size="25" required>
+					</td>
+				
+					<td>Last Name</td>
+					<td>
+						<input type="text" placeholder="Last Name" size="25" required>
+					</td>
+				</tr>
+				
+				
+
+				<tr>
+															<td></td>
+
+					<td>Phone Number</td>
+					<td>
+						<input type="text" value="+962" size="25" required>
+					</td>
+					<td>Email </td>
+					<td>
+						<input type="Email" placeholder="your id@gmail.com" size="25">
+					</td>
+				</tr>
+				
+				
+			
+			</table>
+		
+		
+		<h2>Certificates</h2>
+			<table width="100%">
+	               <tr>
+	               											<td></td>
+
+					<td> Bachelors Certificate</td>
+					<td>
+						<input type="file" size="25" required>
+					
+						<label style="font-size: 10px;">start date:</label>
+						<input type="date"   size="25" required>
+															
+						<label style="font-size: 10px;">graduate date:</label>
+						<input type="date"  size="25" >
+					</td>
+				</tr>
+				<tr>
+															<td></td>
+
+					<td> Personal Photo
+						
+					</td>
+					<td>
+						<input type="file" size="25" required>
+					</td>
+					
+				</tr>
+				<tr>
+															<td></td>
+
+					<td>
+Resume					</td>
+					<td>
+						<input type="file" size="25" required>
+					</td>
+					
+				</tr>
+			</table>
+		
+		<!-- Other Details -->
+		
+			<table width="100%">
+				
+				<tr>
+						<td></td>
+					<td></td>
+					<td>    </td>
+					<td>     </td>
+										<td></td>
+
+					<td></td>
+												<td> </td>
+			<td></td>
+																						<td></td>
+			<td></td>
+										<td></td>
+
+
+
+					<td>
+<input type="checkbox"  name="terms"  required>
+<label for="terms" > Agree to the
+Terms and Conditions</label>		</td>		</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>    </td>
+					<td>     </td>
+										<td></td>
+
+					<td></td>
+												<td> </td>
+			<td></td>
+																						<td></td>
+			<td></td>
+										<td></td>
+
+
+
+
+					<td>
+						<input type="Submit" value="Submit" class="button">
+					</td>
+
+					<td>
+						<input type="Reset" value="Reset" class="button">
+					</td>
+					<td></td>
+										<td></td>
+
+				</tr>
+			</table>
+		</div>
+	</form>
+	
+	<!-- Main Footer -->
+	
+
+	<p style="text-align: center;">Thank you!!</p>
+	
+</body>
+
+ <footer> 
+	<p style="text-align: center;"> &copy;Hla_AlTAweel2021</p>
+</footer>
+
+</html>
